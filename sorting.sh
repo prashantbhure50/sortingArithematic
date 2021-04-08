@@ -6,3 +6,5 @@ read -p "enter a number" number3
 
 number4=$(( number1+number2*number3 ))
 number5=$(( number1*number2+number3 ))
+number6=$(( number3+number1/number2 ))
+
