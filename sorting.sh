@@ -3,3 +3,5 @@
 read -p "enter a number" number1
 read -p "enter a number" number2
 read -p "enter a number" number3
+
+number4=$(( number1+number2*number3 ))
